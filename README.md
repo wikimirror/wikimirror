@@ -5,16 +5,9 @@ layout: default
 
 <div id="div1" style="margin: 20px auto">
 	<p>
-		<span><a href="https://en.iwiki.icu">英文维基镜像1</a></span> |
-		<span><a href="https://en.wikimirror.xyz">英文维基镜像2</a></span>
-	</p>
-	<p>
-		<span><a href="https://zh.iwiki.icu">中文维基镜像1</a></span> |
-		<span><a href="https://zh.wikimirror.xyz">中文维基镜像2</a></span>
-	</p>
-	<p>
-		<span><a href="https://ja.iwiki.icu">日文维基镜像1</a></span> |
-		<span><a href="https://ja.wikimirror.xyz">日文维基镜像2</a></span>
+		<span><a href="https://en.iwiki.icu">英文镜像</a></span> |
+		<span><a href="https://zh.iwiki.icu">中文镜像</a></span> |
+		<span><a href="https://ja.iwiki.icu">日文镜像</a></span>
 	</p>
 </div>
 
