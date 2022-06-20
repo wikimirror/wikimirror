@@ -56,4 +56,15 @@ document.write(`<div style="display: none; overflow: hidden; text-align: center;
 </div>`);
 
 // tj
-!function(){var t=document.createElement("script");function a(){dataLayer.push(arguments)}t.src="https://www.googletagmanager.com/gtag/js?id=UA-195431371-1",t.setAttribute("async",!0),document.head.appendChild(t),window.dataLayer=window.dataLayer||[],a("js",new Date),a("config","UA-195431371-1")}();var _hmt=_hmt||[];!function(){var t=document.createElement("script");t.src="https://hm.baidu.com/hm.js?1b45f04480c6b73a5bae172f5b92f3e5",t.setAttribute("async",!0),document.head.appendChild(t)}();
+
+
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?1b45f04480c6b73a5bae172f5b92f3e5";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+
+
+!function(){var t=document.createElement("script");function a(){dataLayer.push(arguments)}t.src="https://www.googletagmanager.com/gtag/js?id=UA-195431371-1",t.setAttribute("async",!0),document.head.appendChild(t),window.dataLayer=window.dataLayer||[],a("js",new Date),a("config","UA-195431371-1")}();
