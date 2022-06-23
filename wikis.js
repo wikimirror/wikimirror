@@ -4,6 +4,7 @@
 		jQuery('ins[data-ad-status="unfilled"]').css('display','none')
 },5000);
 
+/*
 // google adsense
 if(document.body.clientWidth > 800){
 	document.write(`
@@ -20,7 +21,7 @@ if(document.body.clientWidth > 800){
 	window.close_ads = close_ads;
 	(adsbygoogle = window.adsbygoogle || []).push({});
 }
-
+*/
 // more adsense unit
 (function(){
   if(document.body.clientWidth <750) return;
@@ -58,6 +59,17 @@ document.write(`<div style="display: none; overflow: hidden; text-align: center;
 // tj
 
 
+var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,4662788,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();
+
+/*
 var _hmt = _hmt || [];
 (function() {
   var hm = document.createElement("script");
@@ -65,6 +77,6 @@ var _hmt = _hmt || [];
   var s = document.getElementsByTagName("script")[0];
   s.parentNode.insertBefore(hm, s);
 })();
-
+*/
 
 !function(){var t=document.createElement("script");function a(){dataLayer.push(arguments)}t.src="https://www.googletagmanager.com/gtag/js?id=UA-195431371-1",t.setAttribute("async",!0),document.head.appendChild(t),window.dataLayer=window.dataLayer||[],a("js",new Date),a("config","UA-195431371-1")}();
